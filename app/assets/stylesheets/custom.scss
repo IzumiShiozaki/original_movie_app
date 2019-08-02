@@ -16,3 +16,45 @@
   display: flex;
   justify-content: space-between;
 }
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/* home */
+
+.home-content {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+
+/* 見出し */ 
+
+.page-title {
+  font-size: 2rem;
+  font-family: 'Philosopher', serif;
+  font-weight: normal;
+}
+
+/* 大きな背景画像 */ 
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(../images/top-page.jpg);
+  min-height: 100vh;
+}
+
+#home .page-title {
+  text-transform: none;
+}

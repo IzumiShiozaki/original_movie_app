@@ -2,21 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
+
     <title><%= full_title(yield(:title)) %></title>
     <%= render 'layouts/rails_default' %>
     <%= render 'layouts/shim' %>
+    <%= favicon_link_tag('logo.png') %>
   </head>
   <body>
-    <header class="page-header">
-      <h1>welcome to movie app</h1>
-      <nav>
-        <ul class="main-nav">
-          <li>elementary</li>
-          <li>junior high</li>
-          <li>high school</li>
-        </ul>
-      </nav>
-    <%= yield %>
+    <div>
+      <%= render 'layouts/header' %>
+    </div>
+    <div>
+      <%= yield %>
+    </div>
+    <div id="home" class="big-bg">
+
+    </div>
     <%= render 'layouts/footer' %>
   </body>
 </html>
