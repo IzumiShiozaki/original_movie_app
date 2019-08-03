@@ -58,3 +58,21 @@
 #home .page-title {
   text-transform: none;
 }
+
+/* ボックス */
+
+.item {
+  background: #0bd;
+  color: #fff;
+  text-align: center;
+  padding-top: 25%;
+}
+
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 4%;
+  margin-bottom: 50px;
+  grid-template-rows: 200px;
+}
