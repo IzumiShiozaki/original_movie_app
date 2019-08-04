@@ -50,9 +50,11 @@
   background-repeat: no-repeat;
 }
 
-#home {
-  background-image: url(../images/top-page.jpg);
-  min-height: 100vh;
+#home img{
+  max-width: 100%;
+  margin: 0 auto;
+  text-align:center;
+  background-color: #eee8aa;
 }
 
 #home .page-title {
@@ -100,4 +102,7 @@
   .home-content {
     margin-top: 20%;
   }
+
+
+
 }
